@@ -1,0 +1,6 @@
+tf-birnn
+tf-drnn
+torch-lenet
+torch-vae
+keras-irnn
+tf-rnn

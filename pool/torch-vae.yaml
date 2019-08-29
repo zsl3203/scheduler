@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: Needtoplaced
+spec:
+  restartPolicy: Never
+  containers:
+    - name: vae
+      image: zsl3203/vae
+      command: ["./run.sh"]
+      imagePullPolicy: IfNotPresent
+

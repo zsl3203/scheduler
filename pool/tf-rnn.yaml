@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Needtoplaced
+spec:
+  restartPolicy: Never
+  containers:
+  - name: rnn
+    image: zsl3203/rnn
